@@ -1,0 +1,5 @@
+#!/bin/bash
+while read Model
+do 
+  cachewarmer --add-model $Model
+done </Library/iStores/CacheWarmerModels
