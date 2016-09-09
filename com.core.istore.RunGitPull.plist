@@ -11,6 +11,9 @@
 		<string>/Library/iStores</string>
 		<string>pull</string>
 	</array>
+	<array>
+		<string>/Library/iStore/Script</string>
+	</array>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StartInterval</key>
