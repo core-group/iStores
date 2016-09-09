@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 while read Model
 do 
   cachewarmer --add-model $Model
