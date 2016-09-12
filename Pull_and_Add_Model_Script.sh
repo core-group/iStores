@@ -2,5 +2,5 @@
 /usr/bin/git -C /Library/iStores pull
 while read Model
 do 
-  cachewarmer --add-model $Model
+  /usr/local/bin/CacheWarmer --add-model $Model
 done </Library/iStores/CacheWarmerModels
