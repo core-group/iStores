@@ -6,3 +6,4 @@ do
 done </Library/iStores/CacheWarmerModels
 /usr/local/bin/CacheWarmer --disable mac
 /usr/local/bin/CacheWarmer --enable ios-filter
+/usr/local/bin/CacheWarmer --verbose
