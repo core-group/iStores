@@ -8,7 +8,7 @@ PROD=$(softwareupdate -l |
   tr -d '\n')
 softwareupdate -i "$PROD" -v;
 #Download, Install and License Cache Warmer
-curl -O https://s3.amazonaws.com/assetcache.io/CacheWarmer-17.pkg /Users/srvadmin/Downloads/
+curl -o /Users/srvadmin/Downloads/ https://s3.amazonaws.com/assetcache.io/CacheWarmer-17.pkg 
 installer -pkg /Users/Shared/CacheWarmer-17.pkg -target /
 # Clone the iStores Repo into Library
 git clone https://github.com/core-group/iStores.git /Library/iStores
