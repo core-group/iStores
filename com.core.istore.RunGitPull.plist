@@ -6,7 +6,7 @@
 	<string>com.core.istore.RunGitPull.plist</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Library/iStores/Pull_and_Add_Model_Script</string>
+		<string>/Library/iStores/Pull_and_Add_Model_Script.sh</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
