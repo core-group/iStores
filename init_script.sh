@@ -7,9 +7,10 @@ PROD=$(softwareupdate -l |
   sed -e 's/^ *//' |
   tr -d '\n')
 softwareupdate -i "$PROD" -v;
-#Install Cache Warmer
-
+#Download, Install and License Cache Warmer
+wget https://s3.amazonaws.com/assetcache.io/CacheWarmer-17.pkg -O /Users/Shared/CacheWarmer-17.pkg
+installer -pkg /Users/Shared/CacheWarmer-17.pkg -target /
 # Clone the iStores Repo into Library
-/usr/bin/sudo /usr/local/bin/git clone https://github.com/core-group/iStores.git /Library/iStores
-/usr/bin/sudo /bin/cp /Library/iStores/com.core.istore.RunGitPull.plist /Library/LaunchDaemons/
-/usr/bin/sudo /bin/launchctl load -w /Library/LaunchDaemons/com.core.istore.RunGitPull.plist
+git clone https://github.com/core-group/iStores.git /Library/iStores
+cp /Library/iStores/com.core.istore.RunGitPull.plist /Library/LaunchDaemons/
+launchctl load -w /Library/LaunchDaemons/com.core.istore.RunGitPull.plist
