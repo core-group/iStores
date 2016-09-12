@@ -1,2 +1,0 @@
-#! /bin/bash
-/usr/bin/git -C /Library/iStores pull
