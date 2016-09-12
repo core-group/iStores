@@ -2,5 +2,4 @@
 while read Model
 do 
   cachewarmer --add-model $Model
-  cachewarmer --remove-model $Model
 done </Library/iStores/CacheWarmerModels
