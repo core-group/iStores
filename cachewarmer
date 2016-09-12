@@ -1,0 +1,24 @@
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Company</key>
+	<string>The Core Computer Business, PTY LTD</string>
+	<key>Email</key>
+	<string>roey.saban@core.co.za</string>
+	<key>Name</key>
+	<string>Dian de la port</string>
+	<key>Order</key>
+	<string>SWE150721-8706-17127</string>
+	<key>Product</key>
+	<string>CacheWarmer</string>
+	<key>Quantity</key>
+	<string>10</string>
+	<key>Timestamp</key>
+	<string>Tue, 21 Jul 2015 13:18:23 +0000</string>
+	<key>Signature</key>
+	<data>qP+iO5Jjz1Xo4Uurj20Rj1AqczuUfqD1tAzto5drnJofs92/ERB6sKYbnupRRPsDD+XgffrizMum
+1XFaWiWiuQoDOG5jzEzMoOvNuWUGCL1r+Tpa+BsY5C+lUN+5Add5dG4KtiPX0t+116sZrH8E1jZs
+1KsVEg14NkENdOEvc3c=
+</data>
+</dict>
+</plist>
