@@ -7,6 +7,8 @@ PROD=$(softwareupdate -l |
   sed -e 's/^ *//' |
   tr -d '\n')
 softwareupdate -i "$PROD" -v;
+#Install Cache Warmer
+
 # Clone the iStores Repo into Library
 /usr/bin/sudo /usr/local/bin/git clone https://github.com/core-group/iStores.git /Library/iStores
 /usr/bin/sudo /bin/cp /Library/iStores/com.core.istore.RunGitPull.plist /Library/LaunchDaemons/
